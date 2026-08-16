@@ -1,4 +1,4 @@
-# BPMN Process Modeling
+# BPMN Process Modeling Assignment(Images are in readme and folder,BPMN files are in folder)
 
 This project contains BPMN models for three business processes:
 
