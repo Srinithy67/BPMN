@@ -37,12 +37,8 @@ This process models how an employee submits a leave request through the HR syste
 
 * **Submit Leave Request** → User Task
 * **Check Leave Balance** → Service Task
-* **Send Request to Manager for Approval** → Send Task
 * **Manager Approval** → User Task
 * **Update Employee Leave Balance** → Service Task
-* **Send Approval Notification** → Send Task
-* **Send Rejection Notification** → Send Task
-* **Send Insufficient Balance Notification** → Send Task
 
 ---
 
@@ -78,13 +74,10 @@ This process models how an online purchase order is processed, starting when a c
 
 * **Place Order** → User Task
 * **Check Product Availability** → Service Task
-* **Send Out-of-Stock Notification** → Send Task
 * **Process Payment** → Service Task
-* **Send Payment Failure Notification** → Send Task
 * **Confirm Order** → Service Task
 * **Prepare Product for Shipment** → User Task
 * **Ship Order** → User Task
-* **Send Shipping Confirmation to Customer** → Send Task
 
 ---
 
@@ -122,13 +115,10 @@ This process models how an employee's IT support request is handled by the help 
 * **Submit IT Support Request** → User Task
 * **Register Request** → User Task
 * **Check Problem Severity** → User Task
-* **Assign to Support Technician** → User Task
-* **Assign to Senior Technician** → User Task
 * **Investigate Problem** → User Task
 * **Fix Problem** → User Task
-* **Escalate to External Service Provider** → Send Task
 * **Resolve Problem** → User Task
 * **Update Request Status** → Service Task
-* **Send Resolution Notification** → Send Task
+
 
 ---
